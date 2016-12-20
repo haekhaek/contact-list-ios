@@ -15,6 +15,11 @@
 		02DB8B741E085E3800BEDEA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DB8B721E085E3800BEDEA3 /* LaunchScreen.storyboard */; };
 		02DB8B7F1E085E3800BEDEA3 /* Exercise_15_bTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DB8B7E1E085E3800BEDEA3 /* Exercise_15_bTests.m */; };
 		02DB8B8A1E085E3800BEDEA3 /* Exercise_15_bUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DB8B891E085E3800BEDEA3 /* Exercise_15_bUITests.m */; };
+		02DB8B9C1E0872B600BEDEA3 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DB8B9B1E0872B600BEDEA3 /* TableViewCell.m */; };
+		02DB8B9F1E08744000BEDEA3 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DB8B9E1E08744000BEDEA3 /* ContactDetailViewController.m */; };
+		02DB8BA21E08753600BEDEA3 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DB8BA11E08753600BEDEA3 /* DatePickerViewController.m */; };
+		02DB8BA51E08843000BEDEA3 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DB8BA41E08843000BEDEA3 /* Contact.m */; };
+		02DB8BA81E08843B00BEDEA3 /* ContactStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DB8BA71E08843B00BEDEA3 /* ContactStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		02DB8B851E085E3800BEDEA3 /* Exercise 15 bUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Exercise 15 bUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DB8B891E085E3800BEDEA3 /* Exercise_15_bUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise_15_bUITests.m; sourceTree = "<group>"; };
 		02DB8B8B1E085E3800BEDEA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02DB8B9A1E0872B600BEDEA3 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell.h; path = ../TableViewCell.h; sourceTree = "<group>"; };
+		02DB8B9B1E0872B600BEDEA3 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewCell.m; path = ../TableViewCell.m; sourceTree = "<group>"; };
+		02DB8B9D1E08744000BEDEA3 /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
+		02DB8B9E1E08744000BEDEA3 /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
+		02DB8BA01E08753600BEDEA3 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		02DB8BA11E08753600BEDEA3 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		02DB8BA31E08843000BEDEA3 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		02DB8BA41E08843000BEDEA3 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		02DB8BA61E08843B00BEDEA3 /* ContactStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactStore.h; sourceTree = "<group>"; };
+		02DB8BA71E08843B00BEDEA3 /* ContactStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +116,21 @@
 		02DB8B631E085E3800BEDEA3 /* Exercise 15 b */ = {
 			isa = PBXGroup;
 			children = (
+				02DB8B9A1E0872B600BEDEA3 /* TableViewCell.h */,
+				02DB8B9B1E0872B600BEDEA3 /* TableViewCell.m */,
 				02DB8B671E085E3800BEDEA3 /* AppDelegate.h */,
 				02DB8B681E085E3800BEDEA3 /* AppDelegate.m */,
 				02DB8B6A1E085E3800BEDEA3 /* ViewController.h */,
 				02DB8B6B1E085E3800BEDEA3 /* ViewController.m */,
 				02DB8B6D1E085E3800BEDEA3 /* Main.storyboard */,
+				02DB8BA01E08753600BEDEA3 /* DatePickerViewController.h */,
+				02DB8BA11E08753600BEDEA3 /* DatePickerViewController.m */,
+				02DB8BA31E08843000BEDEA3 /* Contact.h */,
+				02DB8BA41E08843000BEDEA3 /* Contact.m */,
+				02DB8BA61E08843B00BEDEA3 /* ContactStore.h */,
+				02DB8BA71E08843B00BEDEA3 /* ContactStore.m */,
+				02DB8B9D1E08744000BEDEA3 /* ContactDetailViewController.h */,
+				02DB8B9E1E08744000BEDEA3 /* ContactDetailViewController.m */,
 				02DB8B701E085E3800BEDEA3 /* Assets.xcassets */,
 				02DB8B721E085E3800BEDEA3 /* LaunchScreen.storyboard */,
 				02DB8B751E085E3800BEDEA3 /* Info.plist */,
@@ -274,8 +299,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				02DB8B6C1E085E3800BEDEA3 /* ViewController.m in Sources */,
+				02DB8B9C1E0872B600BEDEA3 /* TableViewCell.m in Sources */,
+				02DB8BA81E08843B00BEDEA3 /* ContactStore.m in Sources */,
 				02DB8B691E085E3800BEDEA3 /* AppDelegate.m in Sources */,
 				02DB8B661E085E3800BEDEA3 /* main.m in Sources */,
+				02DB8BA51E08843000BEDEA3 /* Contact.m in Sources */,
+				02DB8BA21E08753600BEDEA3 /* DatePickerViewController.m in Sources */,
+				02DB8B9F1E08744000BEDEA3 /* ContactDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

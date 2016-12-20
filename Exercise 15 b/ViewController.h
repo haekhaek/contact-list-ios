@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ContactStore.h"
+#import "ContactDetailViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, ContactSubmission>
+@property (nonatomic) ContactStore *contactStore;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
+- (void) submitContact;
 
 @end
 
