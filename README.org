@@ -1,0 +1,3 @@
+* Contact list app
+
+This is a little contact list app.
